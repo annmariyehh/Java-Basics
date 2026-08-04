@@ -1,13 +1,24 @@
 public class DataTypes {
     public static void main(String[] args) {
-        int age = 21;
-        double height = 5.4;
+
+        byte age = 21;
+        short year = 2026;
+        int salary = 25000;
+        long phone = 9876543210L;
+
+        float marks = 89.5f;
+        double percentage = 92.75;
+
         char grade = 'A';
-        boolean isStudent = true;
+        boolean passed = true;
 
         System.out.println(age);
-        System.out.println(height);
+        System.out.println(year);
+        System.out.println(salary);
+        System.out.println(phone);
+        System.out.println(marks);
+        System.out.println(percentage);
         System.out.println(grade);
-        System.out.println(isStudent);
+        System.out.println(passed);
     }
 }
